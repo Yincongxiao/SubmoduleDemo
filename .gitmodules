@@ -1,0 +1,3 @@
+[submodule "PrintClass"]
+	path = PrintClass
+	url = git@github.com:Yincongxiao/submodule.git
