@@ -15,6 +15,7 @@
 		DF3A23951EF1925500A2B68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3A23931EF1925500A2B68E /* LaunchScreen.storyboard */; };
 		DF3A23A01EF1925600A2B68E /* SubmoduleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A239F1EF1925600A2B68E /* SubmoduleTestTests.m */; };
 		DF3A23AB1EF1925600A2B68E /* SubmoduleTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A23AA1EF1925600A2B68E /* SubmoduleTestUITests.m */; };
+		DF3A23BE1EF2300300A2B68E /* PrintClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3A23BD1EF2300300A2B68E /* PrintClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DF3A23A61EF1925600A2B68E /* SubmoduleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmoduleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3A23AA1EF1925600A2B68E /* SubmoduleTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubmoduleTestUITests.m; sourceTree = "<group>"; };
 		DF3A23AC1EF1925600A2B68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3A23BC1EF2300300A2B68E /* PrintClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintClass.h; sourceTree = "<group>"; };
+		DF3A23BD1EF2300300A2B68E /* PrintClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DF3A23841EF1925500A2B68E /* SubmoduleTest */ = {
 			isa = PBXGroup;
 			children = (
+				DF3A23BB1EF2300300A2B68E /* PrintClass */,
 				DF3A23881EF1925500A2B68E /* AppDelegate.h */,
 				DF3A23891EF1925500A2B68E /* AppDelegate.m */,
 				DF3A238B1EF1925500A2B68E /* ViewController.h */,
@@ -138,6 +142,15 @@
 				DF3A23AC1EF1925600A2B68E /* Info.plist */,
 			);
 			path = SubmoduleTestUITests;
+			sourceTree = "<group>";
+		};
+		DF3A23BB1EF2300300A2B68E /* PrintClass */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A23BC1EF2300300A2B68E /* PrintClass.h */,
+				DF3A23BD1EF2300300A2B68E /* PrintClass.m */,
+			);
+			path = PrintClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				DF3A238D1EF1925500A2B68E /* ViewController.m in Sources */,
 				DF3A238A1EF1925500A2B68E /* AppDelegate.m in Sources */,
+				DF3A23BE1EF2300300A2B68E /* PrintClass.m in Sources */,
 				DF3A23871EF1925500A2B68E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
