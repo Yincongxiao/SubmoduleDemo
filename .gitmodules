@@ -1,3 +1,3 @@
-[submodule "PrintClass"]
+[submodule "SubmoduleTest/SubmoduleTest/PrintClass"]
 	path = SubmoduleTest/SubmoduleTest/PrintClass
 	url = git@github.com:Yincongxiao/submodule.git
